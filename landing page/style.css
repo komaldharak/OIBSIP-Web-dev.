@@ -1,0 +1,103 @@
+*{
+  margin: 5px ;
+  padding: 2px;
+}
+.container{
+  max-width: 80vw;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+  font-size: 20px;
+}
+.navbar{
+  display: flex;
+  height: 70px;
+  
+}
+.topleft{
+  width: 50%;
+}
+.topright{
+  width: 50%;
+}
+.logo{
+  font-size: 1.3rem ;
+}
+.section1{
+  min-height: 90vh;
+  color:rgb(159, 97, 4) ;
+  
+}
+.section1 h1{
+  font-size: 2rem;
+  color:rgb(144, 89, 6) ;
+}
+.section2{
+  padding: 73px;
+}
+.section2  h1{
+  font-size: 2.3 rem;
+  
+}
+.section3  h1{
+  font-size: 2.3 rem;
+}
+.section3{
+  padding: 73px;
+
+}
+.section2 p{
+  padding: 0 8vw;
+}
+.dumbell{
+  width: 289px;
+}
+.topright .gym{
+width: 466px;
+}
+.box{
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid black;
+  border-radius:  8px ;
+  padding: 8px 0 ;
+}
+.box ul{
+  list-style-type: none;
+}
+.box ul li{
+   margin: 12px 2px;
+}
+.box h2{
+  font-size: 2rem ;
+  padding: 12px;
+}
+.highlighted{
+   font-size: 1.5rem ;
+   font-weight: bolder;
+}
+.compareTable{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+.section3 table{
+   width: 100% ;
+   margin-bottom: 140 px ;
+   margin-top: 20px;
+   border-collapse: collapse;
+   margin-left: -50px;
+}
+.section3 table th{
+  width: 23vw ;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+.section3 table td{
+  border-bottom: 2px solid black;
+}
+.button{
+  width: 230px;
+  margin-left: 26vh;
+}
